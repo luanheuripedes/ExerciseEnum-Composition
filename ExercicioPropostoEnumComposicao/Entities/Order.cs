@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using ExercicioPropostoEnumComposicao.Enums;
+using ExercicioPropostoEnumComposicao.Entities;
+using System.Globalization;
 
 namespace ExercicioPropostoEnumComposicao.Entities
 {
@@ -10,6 +12,8 @@ namespace ExercicioPropostoEnumComposicao.Entities
         public DateTime Momment { get; set; }
         public OrderStatus Status { get; set; }
 
+        public Client Client { get; set; }
+
         public List<OrderItem> Items { get; set; } = new List<OrderItem>();
 
         public Order()
@@ -17,10 +21,11 @@ namespace ExercicioPropostoEnumComposicao.Entities
 
         }
 
-        public Order(DateTime momment, OrderStatus status)
+        public Order(DateTime momment, OrderStatus status, Client client)
         {
             Momment = momment;
             Status = status;
+            Client = client;
         }
 
         public void AddItem(OrderItem item)
@@ -43,6 +48,26 @@ namespace ExercicioPropostoEnumComposicao.Entities
             }
 
             return total;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("ORDER SUMMARY: ");
+            sb.AppendLine("Order moment: " + Momment);
+            sb.AppendLine("Order status" + Status);
+            sb.AppendLine("Client: " + Client.Name + " - " + Client.Email);
+
+            sb.AppendLine("Order items: ");
+            foreach (OrderItem item in Items)
+            {
+                sb.AppendLine(item.Produc.Name + item.Produc.Price.ToString("F2", CultureInfo.InvariantCulture) + ", Quantity: " + item.Quantity + "Subtotal: $" + item.subTotal().ToString("F2", CultureInfo.InvariantCulture));
+            }
+
+            sb.AppendLine(Convert.ToString(Total().ToString("F2", CultureInfo.InvariantCulture)));
+
+
+            return sb.ToString();
         }
     }
 }

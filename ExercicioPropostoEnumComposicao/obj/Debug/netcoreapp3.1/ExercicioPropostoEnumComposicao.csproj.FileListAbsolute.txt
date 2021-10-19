@@ -1,0 +1,14 @@
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\obj\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.csproj.AssemblyReference.cache
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\obj\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\obj\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.AssemblyInfoInputs.cache
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\obj\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.AssemblyInfo.cs
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\obj\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.csproj.CoreCompileInputs.cache
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\bin\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.exe
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\bin\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.deps.json
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\bin\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.runtimeconfig.json
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\bin\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.runtimeconfig.dev.json
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\bin\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.dll
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\bin\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.pdb
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\obj\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.dll
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\obj\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.pdb
+C:\Users\Luan\source\repos\ExercicioPropostoEnumComposicao\ExercicioPropostoEnumComposicao\obj\Debug\netcoreapp3.1\ExercicioPropostoEnumComposicao.genruntimeconfig.cache
